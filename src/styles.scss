@@ -23,4 +23,18 @@ margin-right: 0;
 
 .container{
     margin: 3rem 14% 0;
-   }
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-r {
+    float: right;
+}

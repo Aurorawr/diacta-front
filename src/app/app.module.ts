@@ -16,18 +16,18 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HomeComponent } from 'src/app/components/home/home.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MinutesComponent } from './components/minutes/minutes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent,
+    MinutesComponent
   ],
   imports: [
     BrowserModule,

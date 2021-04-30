@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
     authService.logIn(userCredentials)
     .subscribe(user => {
       console.log(user)
-      this.router.navigate(['/home'])
+      this.router.navigate(['/actas'])
     },
     error => {
       console.error(error)
