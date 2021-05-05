@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: 100%; background-color: azure; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .full-width {
@@ -23,6 +23,8 @@ margin-right: 0;
 
 .container{
     margin: 3rem 14% 0;
+    background-color: white;
+    padding: 2rem;
 }
 
 .mat-toolbar.mat-primary {
@@ -37,4 +39,12 @@ margin-right: 0;
 
 .float-r {
     float: right;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.title {
+    font-size: xxx-large !important;
 }

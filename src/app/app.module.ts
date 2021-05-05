@@ -22,12 +22,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MinutesComponent } from './components/minutes/minutes.component';
+import { MinuteComponent } from './components/minute/minute.component';
+import { PreMinuteComponent } from './components/pre-minute/pre-minute.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MinutesComponent
+    MinutesComponent,
+    MinuteComponent,
+    PreMinuteComponent
   ],
   imports: [
     BrowserModule,
