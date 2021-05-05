@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from 'src/app/components/home/home.component';
 import { LoginComponent } from 'src/app/components/login/login.component';
+import { MinuteComponent } from './components/minute/minute.component';
+import { MinutesComponent } from './components/minutes/minutes.component';
 
 const routes: Routes = [
   {
     path: 'login', component: LoginComponent
   },
   {
-    path: 'home', component: HomeComponent
+    path: 'actas', component: MinutesComponent
+  },
+  {
+    path: 'actas/:id', component: MinuteComponent
   },
   {
     path: '', redirectTo: '/login', pathMatch: 'full'
